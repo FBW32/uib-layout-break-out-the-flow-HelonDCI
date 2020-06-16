@@ -32,4 +32,7 @@ body {
 
 .child-three {
   background-color: rgb(255, 116, 232);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
