@@ -8,6 +8,7 @@ body {
   background-color: aqua;
   margin: 10px;
   padding: 10px;
+  position: relative;
 }
 
 .child {
@@ -17,21 +18,18 @@ body {
 .child-one {
   background-color: rgb(116, 255, 116);
 
-  position: relative;
-  top: 10px;
-  left: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }
 
 .child-two {
   background-color: rgb(248, 117, 117);
-  position: relative;
-  top: 10px;
-  left: 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .child-three {
   background-color: rgb(255, 116, 232);
-  position: relative;
-  top: 10px;
-  left: 10px;
 }
